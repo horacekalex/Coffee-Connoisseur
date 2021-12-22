@@ -6,7 +6,7 @@ import Banner from '../components/banner';
 
 export default function Home() {
   const handleOnBannerBtnClick = () => {
-    
+
   }
   return (
     <div className={styles.container}>
@@ -16,9 +16,6 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Coffee Connoisseur
-        </h1>
         <Banner buttonText='View stores nearby' handleOnClick={handleOnBannerBtnClick}/>
       </main>
 
