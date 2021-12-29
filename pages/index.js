@@ -4,8 +4,6 @@ import styles from '../styles/Home.module.css'
 
 import Banner from '../components/banner';
 import Card from '../components/card';
-
-
 export default function Home() {
   const handleOnBannerBtnClick = () => {
 
